@@ -51,3 +51,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
+secrets {
+    propertiesFileName = "secrets.properties"
+    defaultPropertiesFileName = "local.defaults.properties"
+}
